@@ -155,6 +155,11 @@
   color: #317cc5;
   text-shadow: 1px 1px 8px rgba(0,94,153,0.3);
 }
+.opentip-container.style-place
+{
+  color:#317cc5;
+  background:rgba(255,0,0,1);
+}
 .opentip-container.ot-hide-effect-fade {
   -webkit-transition: -webkit-transform 0.5s ease-in-out, opacity 1s ease-in-out;
   -moz-transition: -moz-transform 0.5s ease-in-out, opacity 1s ease-in-out;
