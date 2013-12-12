@@ -6,7 +6,7 @@
 }
 .opentip-container {
   position: absolute;
-  max-width: 300px;
+  min-width: 300px;
   min-height:200px;
   z-index: 100;
   -webkit-transition: -webkit-transform 1s ease-in-out;
@@ -128,10 +128,10 @@
   display: none;
 }
 .opentip-container.ot-loading .ot-loading-indicator {
-  width: 30px;
-  height: 20px;
+  width: 300px;
+  height: 200px;
   font-size: 30px;
-  line-height: 30px;
+  line-height: 20px;
   font-weight: bold;
   display: block;
 }
