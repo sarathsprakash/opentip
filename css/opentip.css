@@ -6,7 +6,8 @@
 }
 .opentip-container {
   position: absolute;
-  max-width:300px;
+  min-width:300px;
+  min-height:200px;
   z-index: 100;
   display:block;
   -webkit-transition: -webkit-transform 1s ease-in-out;
@@ -191,8 +192,7 @@
   opacity: 1;
   -ms-filter: none;
   filter: none;
-  width:300px;
-  height:200px;
+ 
 }
 @-moz-keyframes otloading {
   0% {
