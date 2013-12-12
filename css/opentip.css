@@ -128,10 +128,10 @@
   display: none;
 }
 .opentip-container.ot-loading .ot-loading-indicator {
-  width: 30px;
-  height: 30px;
+  width: 300px;
+  height: 200px;
   font-size: 30px;
-  line-height: 30px;
+  line-height: 20px;
   font-weight: bold;
   display: block;
 }
