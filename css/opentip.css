@@ -6,11 +6,20 @@
 }
 .opentip-container {
   position: absolute;
-  min-width:300px;
+  min-width: 300px;
   min-height:200px;
   z-index: 100;
-  display:block;
-  
+  -webkit-transition: -webkit-transform 1s ease-in-out;
+  -moz-transition: -moz-transform 1s ease-in-out;
+  -o-transition: -o-transform 1s ease-in-out;
+  -ms-transition: -ms-transform 1s ease-in-out;
+  transition: transform 1s ease-in-out;
+  pointer-events: none;
+  -webkit-transform: translateX(0) translateY(0);
+  -moz-transform: translateX(0) translateY(0);
+  -o-transform: translateX(0) translateY(0);
+  -ms-transform: translateX(0) translateY(0);
+  transform: translateX(0) translateY(0);
 }
 .opentip-container.ot-fixed.ot-hidden.stem-top.stem-center,
 .opentip-container.ot-fixed.ot-going-to-show.stem-top.stem-center,
@@ -119,10 +128,10 @@
   display: none;
 }
 .opentip-container.ot-loading .ot-loading-indicator {
-  width: 300px;
-  height: 200px;
+  width: 30px;
+  height: 30px;
   font-size: 30px;
-  line-height: 20px;
+  line-height: 30px;
   font-weight: bold;
   display: block;
 }
@@ -140,12 +149,10 @@
   color: #f8f8f8;
   text-shadow: 1px 1px 0px rgba(0,0,0,0.2);
 }
-.opentip-container.style-glass .opentip{
+.opentip-container.style-glass .opentip {
   padding: 15px 25px;
-  color: #317cc5
+  color: #317cc5;
   text-shadow: 1px 1px 8px rgba(0,94,153,0.3);
-  width:400px;
-  height:400px;
 }
 .opentip-container.ot-hide-effect-fade {
   -webkit-transition: -webkit-transform 0.5s ease-in-out, opacity 1s ease-in-out;
@@ -164,7 +171,11 @@
 }
 .opentip-container.ot-show-effect-appear.ot-going-to-show,
 .opentip-container.ot-show-effect-appear.ot-showing {
- 
+  -webkit-transition: -webkit-transform 0.5s ease-in-out, opacity 1s ease-in-out;
+  -moz-transition: -moz-transform 0.5s ease-in-out, opacity 1s ease-in-out;
+  -o-transition: -o-transform 0.5s ease-in-out, opacity 1s ease-in-out;
+  -ms-transition: -ms-transform 0.5s ease-in-out, opacity 1s ease-in-out;
+  transition: transform 0.5s ease-in-out, opacity 1s ease-in-out;
 }
 .opentip-container.ot-show-effect-appear.ot-going-to-show {
   opacity: 0;
@@ -180,7 +191,6 @@
   opacity: 1;
   -ms-filter: none;
   filter: none;
- 
 }
 @-moz-keyframes otloading {
   0% {
@@ -231,7 +241,7 @@
     -o-transform: rotate(360deg);
     -ms-transform: rotate(360deg);
     transform: rotate(360deg);
-  } 
+  }
 }
 @-ms-keyframes otloading {
   0% {
@@ -267,4 +277,3 @@
     transform: rotate(360deg);
   }
 }
- 
