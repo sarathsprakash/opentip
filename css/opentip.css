@@ -9,11 +9,10 @@
   min-width: 300px;
   min-height:200px;
   z-index: 100;
-  -webkit-transition: -webkit-transform 1s ease-in-out;
-  -moz-transition: -moz-transform 1s ease-in-out;
-  -o-transition: -o-transform 1s ease-in-out;
-  -ms-transition: -ms-transform 1s ease-in-out;
-  transition: transform 1s ease-in-out;
+  opacity: 0;
+   transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
   pointer-events: none;
   -webkit-transform: translateX(0) translateY(0);
   -moz-transform: translateX(0) translateY(0);
@@ -171,11 +170,10 @@
 }
 .opentip-container.ot-show-effect-appear.ot-going-to-show,
 .opentip-container.ot-show-effect-appear.ot-showing {
-  -webkit-transition: -webkit-transform 0.5s ease-in-out, opacity 1s ease-in-out;
-  -moz-transition: -moz-transform 0.5s ease-in-out, opacity 1s ease-in-out;
-  -o-transition: -o-transform 0.5s ease-in-out, opacity 1s ease-in-out;
-  -ms-transition: -ms-transform 0.5s ease-in-out, opacity 1s ease-in-out;
-  transition: transform 0.5s ease-in-out, opacity 1s ease-in-out;
+  opacity: 1;
+   transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
 }
 .opentip-container.ot-show-effect-appear.ot-going-to-show {
   opacity: 0;
