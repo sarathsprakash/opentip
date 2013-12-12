@@ -164,11 +164,7 @@
 }
 .opentip-container.ot-show-effect-appear.ot-going-to-show,
 .opentip-container.ot-show-effect-appear.ot-showing {
-  -webkit-transition: -webkit-transform 0.5s ease-in-out, opacity 1s ease-in-out;
-  -moz-transition: -moz-transform 0.5s ease-in-out, opacity 1s ease-in-out;
-  -o-transition: -o-transform 0.5s ease-in-out, opacity 1s ease-in-out;
-  -ms-transition: -ms-transform 0.5s ease-in-out, opacity 1s ease-in-out;
-  transition: transform 0.5s ease-in-out, opacity 1s ease-in-out;
+ 
 }
 .opentip-container.ot-show-effect-appear.ot-going-to-show {
   opacity: 0;
