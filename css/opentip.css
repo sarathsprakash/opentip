@@ -56,15 +56,7 @@
   font-weight: bold;
   display: block;
 }
-.opentip-container.ot-loading .ot-loading-indicator span {
-  display: block;
-  -webkit-animation: otloading 2s linear infinite;
-  -moz-animation: otloading 2s linear infinite;
-  -o-animation: otloading 2s linear infinite;
-  -ms-animation: otloading 2s linear infinite;
-  animation: otloading 2s linear infinite;
-  text-align: center;
-}
+
 .opentip-container.style-dark .opentip,
 .opentip-container.style-alert .opentip {
   color: #f8f8f8;
