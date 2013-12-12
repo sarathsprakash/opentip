@@ -10,9 +10,7 @@
   min-height:200px;
   z-index: 100;
  opacity: 1;
-   transition: opacity .25s ease-in-out;
-   -moz-transition: opacity .25s ease-in-out;
-   -webkit-transition: opacity .25s ease-in-out;
+  
   pointer-events: none;
   -webkit-transform: translateX(0) translateY(0);
   -moz-transform: translateX(0) translateY(0);
@@ -154,9 +152,7 @@
   text-shadow: 1px 1px 8px rgba(0,94,153,0.3);
 }
 .opentip-container.ot-hide-effect-fade {
-   transition: opacity .25s ease-in-out;
-   -moz-transition: opacity .25s ease-in-out;
-   -webkit-transition: opacity .25s ease-in-out;
+   
    opacity: 1;
   -ms-filter: none;
   filter: none;
@@ -169,9 +165,7 @@
 .opentip-container.ot-show-effect-appear.ot-going-to-show,
 .opentip-container.ot-show-effect-appear.ot-showing {
    opacity: 1;
-   transition: opacity .25s ease-in-out;
-   -moz-transition: opacity .25s ease-in-out;
-   -webkit-transition: opacity .25s ease-in-out;
+  
 }
 .opentip-container.ot-show-effect-appear.ot-going-to-show {
   opacity: 0;
